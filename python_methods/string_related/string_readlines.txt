@@ -1,0 +1,14 @@
+String readlines() Method:
+=========================
+
+Return all lines in the file, as a list where each line is an item in the list object
+
+ex: 
+
+f = open("demofile.txt", "r")
+print(f.readlines())
+
+results:
+=======
+
+['Hello! Welcome to demofile.txt\n', 'This file is for testing purposes.\n', 'Good Luck!']
