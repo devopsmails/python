@@ -1,0 +1,11 @@
+Pandas docs link: http://pandas.pydata.org/docs/
+
+Use of Pandas?
+
+1. Super helpful to anlysis the complex form of tabular files.
+
+Pandas is not inbuilt library to make use of it. Need to install it by using a short cut on Pycharm:
+
+"import pandas" > click red bulb symbol > install pandas packages > 
+
+##it installs autometically all the pandas packages.
