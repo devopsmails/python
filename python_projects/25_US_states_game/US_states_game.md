@@ -7,7 +7,7 @@
  Used:
  =====
  
- pandas methods
+ pandas 
  
  Jpg files
  
