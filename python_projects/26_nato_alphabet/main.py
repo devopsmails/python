@@ -9,3 +9,4 @@ word = input("Enter a word: " ).upper()
 output = [phonetic_dict[char] for char in word]
 print(output)
 
+ 
