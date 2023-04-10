@@ -97,5 +97,84 @@ passed_students = {
 }
 print(passed_students)
 
+=======================
+            
+Code Challenges:
+1.
+Instructions:
+=============
+
+numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+You are going to write a List Comprehension to create a new list called squared_numbers. 
+This new list should contain every number in the list numbers but each number should be squared.  
+
+  Results:
+  ========
+numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+squared_numbers = [n * n for n in numbers]
+
+print(squared_numbers)
+--------------------
+
+2.
+Instructions:
+============
+numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+You are going to write a List Comprehension to create a new list called result. 
+This new list should only contain the even numbers from the list numbers.
+
+Results:
+=======
+
+numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+
+result = [n for n in numbers if n % 2 == 0 ]
+print(result)
+
+----------------
+3
+Instructions:
+Take a look inside file1.txt and file2.txt. They each contain a bunch of numbers, each number on a new line.
+
+You are going to create a list called result which contains the numbers that are common in both files.
+
+Example:
+  
+file1.txt
+=========                   
+3
+6
+5
+8
+42
+13
+
+file2.txt
+=========
+3
+6
+34
+1
+344
+42
+
+main.py
+======
+
+
+with open ("file1.txt",) as file1 :
+    file_1_data = file1.readlines()
+
+with open ("file2.txt") as file2:
+    file_2_data = file2.readlines()
+   
+ result = [new_item for item in list if test ]#in /not in 
+
+result = [int(num) for num in file_1_data if num in file_2_data]
+
+print(result)
+
+Result:
+[3,6,]
             
          
