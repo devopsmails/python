@@ -45,6 +45,8 @@ with open ("file1.txt",) as file1 :
 
 with open ("file2.txt") as file2:
     file_2_data = file2.readlines()
+   
+ result = [new_item for item in list if test ]#in /not in 
 
 result = [int(num) for num in file_1_data if num in file_2_data]
 
