@@ -33,4 +33,17 @@ print(result)
 
 ----------------
 
+3.
+You are going to use Dictionary Comprehension to create a dictionary called result that 
+takes each word in the given sentence and calculates the number of letters in each word.
+
+sentence = "What is the Airspeed Velocity of an Unladen Swallow?"
+
+  
+result = {words: len(words) for words in sentence.split()}
+print(result)
+
+Results:
+=======
+{'What': 4, 'is': 2, 'the': 3, 'Airspeed': 8, 'Velocity': 8, 'of': 2, 'an': 2, 'Unladen': 7, 'Swallow?': 8}
 
