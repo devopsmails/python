@@ -56,3 +56,42 @@ Result:
 #sum
 32
 
+# Key word argument (**kwargs):
+=========================
+ ==> Need to have two "**kwargs" in function.
+ 
+ #Type 1:
+ ======
+ 
+ def calculate(**kwargs):
+    for key, value in kwargs.items():
+        print(key)
+        print(value)
+
+calculate(add =2, multiply=5)
+
+Results:
+=======
+
+add
+2
+multiply
+5
+
+#Type 2:
+=======
+#Custom Value for a key:
+def calculate(n, **kwargs):
+ 
+    print(kwargs)
+    n += kwargs["add"]
+    n *= kwargs["multiply"]
+    print(n)
+
+calculate(2, add =3, multiply=5)
+
+Result:
+=======
+
+{'add': 3, 'multiply': 5}
+25
