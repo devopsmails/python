@@ -91,3 +91,26 @@ ex.grid(row=0, column=1, columnspan=2)
     #columnspan:
     Helps to extend any widget to the next column
     ex.grid(row=0, column=1, columnspan=2)
+
+  -----------
+
+#Focus:
+======
+ Helps to place the cursor at particulory mentioned place autometically.
+   Ex:
+website_entry = Entry(width=52)
+website_entry.grid(row=1, column=1, columnspan=2)
+website_entry.focus()
+
+----------
+#Insert
+======
+helps to insert some info on a specific entry
+EX:
+mail_entry = Entry(width=52)
+mail_entry.grid(row=2, column=1, columnspan=2)
+mail_entry.insert(0, "devopsmails1@gmail.com")#0 = Position of the string need to start
+--------------
+
+
+
