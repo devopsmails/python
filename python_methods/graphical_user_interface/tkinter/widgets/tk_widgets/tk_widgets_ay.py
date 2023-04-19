@@ -84,3 +84,10 @@ listbox.bind("<<ListboxSelect>>", listbox_used)
 listbox.pack()
 window.mainloop()
 
+#Grid:
+Grid helps place the feature on windows specific row & columns.
+ex.grid(row=0, column=1, columnspan=2)
+
+    #columnspan:
+    Helps to extend any widget to the next column
+    ex.grid(row=0, column=1, columnspan=2)
