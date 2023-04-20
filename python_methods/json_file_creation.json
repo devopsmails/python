@@ -1,0 +1,44 @@
+Why Json in Python?
+    
+  It's difficult to read through a file if file is stored in the form of the following.
+  ex: Amazon | mail: mail@gmail.com | password: 3923923892
+  
+  But with Json we can achive this easily.
+
+Json = Java Script Object Notaion
+
+Json.load() : to read the file
+json.update() : to update with new info
+json.dump() : to write into the file
+
+ex:
+    website = website_entry.get()
+    email = mail_entry.get()
+    password = password_entry.get()
+
+    new_data = {
+        website: {
+        "email" : email,
+        "password": password
+        }
+    }
+    if len(website) == 0 or len(email) == 0 or len(password) == 0:
+        messagebox.showinfo(title="OOPS!", message="Fill the empty fields")
+
+    else:
+        is_ok = messagebox.askokcancel(title="Alert!", message= f"Do you want to save: \n webiste : {website}"
+                                                f"\n email: {email}" f"\n passowrd: {password}")
+        if is_ok:
+            with open("data.json", "r") as data_file:
+                #Reading old data
+                data = json.load(data_file)
+                #updating old data with new data
+                data.update(new_data)
+
+            with open("data.json", "w") as data_file:
+                #Saving updated data
+                json.dump(data, data_file, indent=4)
+
+            website_entry.delete(0, END)
+            password_entry.delete(0, END)
+
