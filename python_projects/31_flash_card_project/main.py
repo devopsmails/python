@@ -1,7 +1,7 @@
 from tkinter import *
 import pandas
 import random
-
+ 
 current_card = {}
 to_learn = {}
 try:
