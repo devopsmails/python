@@ -4,6 +4,7 @@ import math
 import tkinter #framing
 import turtle #framing
 import pyperclip
+import smtplib #helps sending mails
 
 pyperclip :(Helps to copy the info to clipboard).
 https://pypi.org/project/pyperclip/
