@@ -6,4 +6,4 @@ Basic_Widget :- https://tkdocs.com/tutorial/widgets.html#entry
 Hosting python on cloud for free:- https://www.pythonanywhere.com/
 HTTPresponse code:- https://www.webfx.com/web-development/glossary/http-status-codes/
 Map Point with lat & longtude:- https://www.latlong.net/Show-Latitude-Longitude.html\
-Travia db:- https://opentdb.com/api_config.php
+Travia db:- https://opentdb.com/api_config.php #Helps to get some question type db
