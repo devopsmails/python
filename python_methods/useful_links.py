@@ -24,3 +24,5 @@ world Weather viewer(ex:Where raining, snowing):
     https://www.ventusky.com/
 Free web execution of Python code:
     https://www.pythonanywhere.com/
+Free multiple APIs:
+    https://apilist.fun/
