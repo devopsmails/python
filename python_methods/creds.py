@@ -10,4 +10,8 @@ https://home.openweathermap.org/home
 Username: Python
 Email: devopsmails1@gmail.com
 PWD: Devops@1
-
+==================
+Free sending SMS:
+  https://console.twilio.com/account/verification/email
+Username: 
+PWD: Smswithpython@@1
