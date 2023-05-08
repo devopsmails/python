@@ -20,3 +20,5 @@ open/paid weather forcasting website:
     https://openweathermap.org/api
 Json Viewer:
     https://jsonviewer.stack.hu/
+world Weather viewer(ex:Where raining, snowing):
+    https://www.ventusky.com/
