@@ -13,5 +13,5 @@ PWD: Devops@1
 ==================
 Free sending SMS:
   https://console.twilio.com/account/verification/email
-Username: 
+Username: devopsmails1@gmail.com
 PWD: Smswithpython@@1
