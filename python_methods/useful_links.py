@@ -26,3 +26,6 @@ Free web execution of Python code:
     https://www.pythonanywhere.com/
 Free multiple APIs:
     https://apilist.fun/
+Helps track any habit:
+    https://pixe.la/
+    https://docs.pixe.la/entry/post-user
