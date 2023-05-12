@@ -2,6 +2,9 @@ request.get():
   - Helps to get the data from the endpoint with API
 request.post():
   - Helps to add the data to the end point with API
+  ex:
+  https://pixe.la/v1/users/suresh1/graphs/graph2.html
+  
 request.put():
  - Helps  to the added data with new data at the end point with API
 request.delete():
