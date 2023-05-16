@@ -29,3 +29,5 @@ Free multiple APIs:
 Helps track any habit:
     https://pixe.la/
     https://docs.pixe.la/entry/post-user
+To find the ip of any website:
+    https://www.nslookup.io/
