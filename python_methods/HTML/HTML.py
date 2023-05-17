@@ -13,6 +13,9 @@ HTML:
   <h1/> = closing tag
   <h1>Hello World <h1/> = Elements
 
+Non Void Elements:
+=================
+
  Heading:
   
  Note: Only 6 heading are there not more than that.
