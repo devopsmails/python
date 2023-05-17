@@ -1,3 +1,6 @@
+Python:
+=======
+
 Python best Docs: 
     https://www.w3schools.com/python/python_file_write.asp
 Color : 
@@ -31,3 +34,9 @@ Helps track any habit:
     https://docs.pixe.la/entry/post-user
 To find the ip of any website:
     https://www.nslookup.io/
+        
+======     
+HTML:
+======
+HTML Doc: 
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
