@@ -40,3 +40,11 @@ HTML:
 ======
 HTML Elements Doc: 
     https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
+        
+
+==========
+General tools:
+===========
+
+helps to check the diff between any two formats:
+    https://www.diffchecker.com/
