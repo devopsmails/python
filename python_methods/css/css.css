@@ -1,0 +1,91 @@
+CSS:
+  Cascading Style Sheet
+    Style Sheet is language to style the website using CSS.
+ex:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Adding CSS</title>
+</head>
+
+<body>
+  <h1>Three Methods of Adding CSS</h1>
+  <ol>
+    <li><a href="./inline.html">Inline</a></li>
+    <li><a href="./internal.html">Internal</a></li>
+    <li><a href="./external.html">External</a></li>
+  </ol>
+ 
+</body>
+
+</html>
+
+3 Types of Cascading Styles:
+
+1.Inline:
+  Helps to style a single element
+
+Ex:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Inline</title>
+</head>
+
+<body>
+<h1 style="color: blue;">Style Me in Blue!</h1>
+</body>
+
+</html>
+-------------------
+2.Internal:
+    Helps to style a single webpage
+ex:
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Internal</title>
+  <style>
+    h1 {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+<h1>Style Me in Red!</h1>
+</body>
+
+</html>
+------------------
+3.External:
+    Helps style the multiple webpages and most of the developers prefrers this method
+    We'll create an external style sheet file and helps to call into the code. 
+--------
+style.css
+h1 {
+    color: green;
+}
+
+Ex:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>External</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <h1>Style Me in Green</h1>
+</body>
+</html>
+
+
+
