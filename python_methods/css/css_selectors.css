@@ -1,0 +1,77 @@
+CSS Selectors:
+-------
+1.Element Selector:
+  
+  Selects same elements with the mentioned tag
+
+<h1>This is CSS</h1>/<a></a>/<p></p>...
+<h1>This is CSS</h1>
+<h1>This is CSS</h1>
+
+Syntax Ex:
+
+h1 {
+    color: green;
+}
+
+# h1 tag applies  for all the listed h1 tags
+
+============================
+
+2.Class Selector:
+    Helps to select any number of elements by defining the class in the opening tag.
+<h1 class="red_class" >This is CSS</h1>
+<p class="red_class" >This is CSS</p>
+<h3>This is CSS</h3>
+
+Syntax Ex:
+-------
+ =>After the Dot(.) Need to mentioned the class to style
+.red_class {
+  color: blue;
+}
+
+=============================
+
+3.Id_Selector:
+----------
+    It styles only one element of whole HTML file.
+    The Id should be unique.
+
+<h1 id="main">This is CSS</h1> 
+<h1>This is CSS</h1>
+<h1>This is CSS</h1>
+
+Syntax Ex:
+---------
+    =>hashtag(#) is must at the first withno space id name.
+
+#main {
+  color: Green;
+}
+
+========================
+4. Attribute Selector:
+
+    Helps to style by selecting a mentioned attribute like alt,img, src,id, etc
+
+<p draggable="true">Drage me </p>
+<p draggable="false">Can't drag me </p>
+<p draggable="false">Can't drag me </p>
+
+ex:
+p[draggable="false"] {
+    color:yellow;
+}
+=============
+5. Universal Selector:
+
+  Selects all the line in html file irresptive of elements, class, id, tag ..
+
+   => Starts with Asterrisk(*) with no other value
+
+ex:
+
+* {
+    color:black;
+}
