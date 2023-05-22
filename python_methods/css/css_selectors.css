@@ -60,7 +60,7 @@ Syntax Ex:
 <p draggable="false">Can't drag me </p>
 
 ex:
-p[draggable="false"] {
+[draggable="false"] {
     color:yellow;
 }
 =============
