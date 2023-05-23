@@ -1,0 +1,41 @@
+Types of Fonts Sizes:
+
+Static:
+======
+1.1px(Pixel)= 1/96th inch
+2.1pt(point=ms word font number) = 1/72nd inch
+
+Relative:
+=========
+3.1em(equal to body size) = 100 % parent
+4.1rem(equal to size of root = Which is equal to HTML body size)
+==========
+=========
+Font weight:
+==========
+=============
+
+Normal / Bold:
+1.Normal/bold : 
+  Using key words:
+ex: 
+html {
+  font-weight: bold / normal
+}
+--------------
+2.Lighter/Bolder:
+=======
+Relative to parent which increase / decrease size based on parent size
+
+-----------
+
+3.number:
+  We can directly mentined what level of bold ness we want in between: 100 - 900
+
+==========
+==========
+Font Family
+==========
+=========
+ Helps to add the font families from using font.google.com by linking & coping the family code
+
