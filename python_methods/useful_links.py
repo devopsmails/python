@@ -56,4 +56,5 @@ helps to check the diff between any two formats:
     https://www.diffchecker.com/
 Helps to color mix:
     https://www.csfieldguide.org.nz/en/interactives/rgb-mixer/
-        
+Fonts Styles:
+    https://fonts.google.com/
