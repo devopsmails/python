@@ -41,10 +41,19 @@ HTML:
 HTML Elements Doc: 
     https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
         
-
 ==========
+CSS
+========
+
+CSS documentation:
+https://developer.mozilla.org/en-US/docs/Web/CSS/named-color
+
+==============
 General tools:
 ===========
 
 helps to check the diff between any two formats:
     https://www.diffchecker.com/
+Helps to color mix:
+    https://www.csfieldguide.org.nz/en/interactives/rgb-mixer/
+        
