@@ -58,4 +58,5 @@ Helps to color mix:
     https://www.csfieldguide.org.nz/en/interactives/rgb-mixer/
 Fonts Styles:
     https://fonts.google.com/
-
+latest Tech News:
+    https://news.ycombinator.com/
