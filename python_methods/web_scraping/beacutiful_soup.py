@@ -110,3 +110,36 @@ Rs:
  </body>
 </html>
 
+============================
+if want to hold all the elements
+===========================
+
+###Helps to print all defined elements:
+all_anchor_tags = soup.find_all(name="a")
+# print(all_anchor_tags)
+
+#####Print all the anchor text
+# for tag in all_anchor_tags:
+#     # print(tag.getText)
+
+    #####Prints only anchor links
+    # print(tag.get("href"))
+
+
+#####prints only the required element by using id/class
+# heading = soup.find(name="h1", id="name")
+# print(heading)
+
+# section_heading = soup.find(name="h3", class_="heading")
+# print(section_heading.text)
+
+#######If want get from nested tags/elements
+# company_url = soup.select_one(selector="p a")
+# print(company_url)
+
+#####id######
+# name = soup.select_one(selector="#name")
+# print(name)
+
+heading = soup.select(".heading")
+print(heading)
