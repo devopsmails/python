@@ -60,3 +60,5 @@ Fonts Styles:
     https://fonts.google.com/
 latest Tech News:
     https://news.ycombinator.com/
+Movies_lists:
+    https://www.empireonline.com/movies/features/best-movies-2/
