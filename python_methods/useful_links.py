@@ -64,3 +64,9 @@ Movies_lists:
     https://www.empireonline.com/movies/features/best-movies-2/
 Songs played on the Radio on the data:
     https://www.billboard.com/charts/hot-100/2000-08-12/
+===============
+Selenium
+============
+Helps to locate elements:
+    https://selenium-python.readthedocs.io/locating-elements.html
+        
