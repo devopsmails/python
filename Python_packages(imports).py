@@ -9,7 +9,7 @@ import datetime #Helps to cath hold the date& time to execute specific action
 import requests # helps to call the api requests
 from bs4 import BeautifulSoup #for web scraping
 
-impor selenium #web testing
+import selenium #web testing
 from selenium import webdriver #for chrome webscrapng
 from selenium.webdriver.common.by import By #importing by key for locating element
 
