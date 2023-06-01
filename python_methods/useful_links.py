@@ -69,4 +69,10 @@ Selenium
 ============
 Helps to locate elements:
     https://selenium-python.readthedocs.io/locating-elements.html
+===============
+Flask
+==============
+Webframe work:
+    https://flask.palletsprojects.com/en/1.1.x/quickstart/
+        
         
