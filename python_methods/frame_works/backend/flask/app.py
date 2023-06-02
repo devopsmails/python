@@ -15,12 +15,15 @@ def hello_world():
   pycharm terminal:
     cmd: set FLASK_PATH=app.py #file name should be app.py if not error
     cmd2: flask run
+    
       
   click on the ip address: 
 result on webbrowser:
   browser: top right three vertical dots > more tools > Developer tools > Elements
 we can see the function coverted to HTML
 
+cmd3: ctrl + c #as website is running continuously need to stop it. 
+  
 <html>
   <body>Hello,world</body>
 </html>
