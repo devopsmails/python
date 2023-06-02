@@ -12,7 +12,10 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello, World!'
 
-  
+  pycharm terminal:
+    cmd: set FLASK_PATH=app.py #file name should be app.py if not error
+    cmd2: flask run
+      
   click on the ip address: 
 result on webbrowser:
   browser: top right three vertical dots > more tools > Developer tools > Elements
