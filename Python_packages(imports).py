@@ -13,6 +13,7 @@ import selenium #web testing
 from selenium import webdriver #for chrome webscrapng
 from selenium.webdriver.common.by import By #importing by key for locating element
 
+from flask import Flask #Helps to web framework
 
 
 pyperclip :(Helps to copy the info to clipboard).
