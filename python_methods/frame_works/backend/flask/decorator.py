@@ -3,33 +3,18 @@ Decorator:
   Decorators allow us to wrap another function in order to extend the behaviour of the wrapped function, without permanently modifying it.
   
 ex:
-import time
+from flask import Flask
 
-current_time = time.time()
-print(current_time)
-
-
-def speed_calc_decorator(function):
-    def wrapper_function():
-        start_time = time.time()
-        function()
-        end_time = time.time()
-        print(f"{function.__name__} run speed: {end_time - start_time}s")
-
-    return wrapper_function
+app = Flask(__name__)
 
 
-@speed_calc_decorator
-def fast_function():
-    for i in range(10000000):
-        i * i
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
 
+@app.route("/bye")
+def say_bye():
+    return "Bye"
 
-@speed_calc_decorator
-def slow_function():
-    for i in range(100000000):
-        i * i
-
-
-fast_function()
-slow_function() 
+if __name__ == "__main__":
+    app.run()
