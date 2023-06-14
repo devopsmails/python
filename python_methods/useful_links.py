@@ -74,5 +74,11 @@ Flask
 ==============
 Webframe work:
     https://flask.palletsprojects.com/en/1.1.x/quickstart/
-        
+==========
+
+Images:
+==========
+
+gif: https://giphy.com/
+
         
