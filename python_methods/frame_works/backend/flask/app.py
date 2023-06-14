@@ -23,7 +23,11 @@ result on webbrowser:
 we can see the function coverted to HTML
 
 cmd3: ctrl + c #as website is running continuously need to stop it. 
-  
+
+#To get the html code of the flask website 
+# Website > rightclik > inspect > copy the HTML code
+  ex:
+
 <html>
   <body>Hello,world</body>
 </html>
