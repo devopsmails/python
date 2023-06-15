@@ -14,7 +14,7 @@ from selenium import webdriver #for chrome webscrapng
 from selenium.webdriver.common.by import By #importing by key for locating element
 
 from flask import Flask #Helps to web framework
-from flask import Flask, render_template #for rendering html file to css server
+from flask import Flask, render_template #for rendering html file to flask server
 
 pyperclip :(Helps to copy the info to clipboard).
 https://pypi.org/project/pyperclip/
