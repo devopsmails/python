@@ -1,1 +1,9 @@
 class_ = if want to use class(reserved key) as an attribute(variable) need to use class_(underscore)
+
+flask:
+=====
+
+clear cache on the web browser & show updated changes
+
+on the browser:
+shift + refresh button
