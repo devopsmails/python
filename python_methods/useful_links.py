@@ -50,6 +50,14 @@ CSS
 CSS documentation:
 https://developer.mozilla.org/en-US/docs/Web/CSS/named-color
 
+
+========
+CSS FRAMEWORK:
+BOOTSTRAP:
+==========
+Helps to create quick web design with beautiful design
+    https://getbootstrap.com/
+
 ==============
 General tools:
 ===========
