@@ -67,6 +67,8 @@ Helps to breakpoint the webpage
 free Bootstrap icon images:
     https://icons.getbootstrap.com/
 
+Boostrap Website layout exammples: 
+    https://getbootstrap.com/docs/5.3/examples/
 ==============
 General tools:
 ===========
