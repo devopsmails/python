@@ -64,6 +64,9 @@ Helps to create quick web design with beautiful design
 Helps to breakpoint the webpage
     https://getbootstrap.com/docs/5.3/layout/breakpoints/
 
+free Bootstrap icon images:
+    https://icons.getbootstrap.com/
+
 ==============
 General tools:
 ===========
