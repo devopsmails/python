@@ -58,6 +58,9 @@ BOOTSTRAP:
 Helps to create quick web design with beautiful design
     https://getbootstrap.com/
 
+Helps to breakpoint the webpage
+    https://getbootstrap.com/docs/5.3/layout/breakpoints/
+
 ==============
 General tools:
 ===========
