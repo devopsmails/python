@@ -9,6 +9,14 @@ import datetime #Helps to cath hold the date& time to execute specific action
 import requests # helps to call the api requests
 from bs4 import BeautifulSoup #for web scraping
 
+#to Create AWS services using API
+import boto3
+  https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
+
+#Helps to utility of CPU & mem
+import psutil
+  https://psutil.readthedocs.io/en/latest/
+
 import selenium #web testing
 from selenium import webdriver #for chrome webscrapng
 from selenium.webdriver.common.by import By #importing by key for locating element
