@@ -1,6 +1,9 @@
 Angela's another website for HTML, CSS, BOOTSRAP website
     https://appbrewery.com/p/legacy-complete-web-development-course/
 
+web development course resource list by Angela Yu:
+    https://appbrewery.com/courses/legacy-complete-web-development-course/lectures/46570090
+
 Laest Technical innovations:
     https://techcrunch.com/
 
