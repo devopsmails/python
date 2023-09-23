@@ -1,6 +1,9 @@
 Angela's another website for HTML, CSS, BOOTSRAP website
     https://appbrewery.com/p/legacy-complete-web-development-course/
 
+Laest Technical innovations:
+    https://techcrunch.com/
+
 Python:
 =======
 
